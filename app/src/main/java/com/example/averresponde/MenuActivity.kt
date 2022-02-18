@@ -32,6 +32,7 @@ class MenuActivity : AppCompatActivity() {
         /**/
         binding.imgButtJuegos.setOnClickListener(){
             //para cambiar a la otra activity
+
             var intent= Intent(this,PreguntasActivity::class.java)
             startActivity(intent)
         }
