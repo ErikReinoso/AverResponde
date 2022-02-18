@@ -29,7 +29,7 @@
                 app:srcCompat="@drawable/musica" />
 
             <ImageButton
-                android:id="@+id/imageButton3"
+                android:id="@+id/imgButtJuegos"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/videojuegos" />
@@ -41,7 +41,7 @@
             android:orientation="vertical">
 
             <ImageButton
-                android:id="@+id/btnPintura"
+                android:id="@+id/btnPintur"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/pintura" />
@@ -68,7 +68,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttonCerrar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/white"
